@@ -24,7 +24,7 @@ Problems will be updated as I solve them daily.
 - Easy: 2
 - Medium: 0
 - Hard: 0
-- Top Tags: linked-list (1), recursion (1), math (1), dynamic-programming (1)
+- Top Tags: math (1), dynamic-programming (1), linked-list (1), recursion (1)
 - Last Updated (UTC): 2026-04-24 08:41
 <!-- STATS_END -->
 
@@ -33,8 +33,8 @@ Problems will be updated as I solve them daily.
 | Date | Problem | Difficulty | Language | Link |
 | --- | --- | --- | --- | --- |
 <!-- PROBLEM_TABLE_START -->
-| 2026-04-24 | 206. Reverse Linked List | Easy | C++ | [LeetCode](https://leetcode.com/problems/reverse-linked-list/) |
 | 2026-04-24 | 509. Fibonacci Number | Easy | C++ | [LeetCode](https://leetcode.com/problems/fibonacci-number/) |
+| 2026-04-24 | 206. Reverse Linked List | Easy | C++ | [LeetCode](https://leetcode.com/problems/reverse-linked-list/) |
 <!-- PROBLEM_TABLE_END -->
 
 ## Repository Structure
