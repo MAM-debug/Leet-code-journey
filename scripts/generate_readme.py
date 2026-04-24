@@ -28,6 +28,32 @@ def extract_solutions() -> List[Dict[str, str]]:
     if not SOLUTIONS_ROOT.exists():
         return items
 
+    # Check root solutions folder for files (flat structure)
+    for file_path in SOLUTIONS_ROOT.glob("*.cpp"):
+        if file_path.is_file():
+            text = file_path.read_text(encoding="utf-8")
+            md = parse_metadata(text)
+
+            if "date" not in md or "problem" not in md or "leetcode" not in md:
+                continue
+
+            language = md.get("language", VALID_EXTENSIONS[file_path.suffix.lower()])
+            difficulty = md.get("difficulty", "Unknown")
+            tags = md.get("tags", "")
+
+            items.append(
+                {
+                    "date": md["date"],
+                    "problem": md["problem"],
+                    "difficulty": difficulty,
+                    "language": language,
+                    "leetcode": md["leetcode"],
+                    "tags": tags,
+                    "path": str(file_path.relative_to(ROOT)).replace("\\", "/"),
+                }
+            )
+
+    # Check year subdirectories (nested structure)
     for year_dir in sorted(SOLUTIONS_ROOT.glob("[0-9][0-9][0-9][0-9]")):
         if not year_dir.is_dir():
             continue
