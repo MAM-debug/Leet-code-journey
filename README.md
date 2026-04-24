@@ -1,10 +1,16 @@
-﻿# LeetCode Solutions
+# LeetCode Solutions
 
-Simple collection of my LeetCode solutions in C++.
+My LeetCode problem solutions in C++.
 
-## Problems
+## Profile
+[LeetCode](https://leetcode.com/u/Muhammad-Abdullah-Mateen/)
+
+## Problems Solved
 
 | # | Problem | File |
 |---|---------|------|
-| 206 | Reverse Linked List | [206.cpp](solutions/206.cpp) |
-| 509 | Fibonacci Number | [509.cpp](solutions/509.cpp) |
+| 206 | Reverse Linked List | [solutions/206.cpp](solutions/206.cpp) |
+| 509 | Fibonacci Number | [solutions/509.cpp](solutions/509.cpp) |
+
+---
+*Solutions are written in C++*
