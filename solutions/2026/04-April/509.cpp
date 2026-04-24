@@ -1,6 +1,9 @@
-// LeetCode Problem 509: Fibonacci Number
-// Difficulty: Easy
-// URL: https://leetcode.com/problems/fibonacci-number/
+@date: 2026-04-24
+@problem: 509. Fibonacci Number
+@leetcode: https://leetcode.com/problems/fibonacci-number/
+@difficulty: Easy
+@tags: math, dynamic-programming
+@language: C++
 
 class Solution {
 public:

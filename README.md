@@ -8,7 +8,7 @@
 
 <p align="center">
 <!-- TOTAL_SOLVED_BADGE_START -->
-<img src="https://img.shields.io/badge/Total%20Solved-0-blue?style=flat-square" alt="Total Solved" />
+<img src="https://img.shields.io/badge/Total%20Solved-2-blue?style=flat-square" alt="Total Solved" />
 <!-- TOTAL_SOLVED_BADGE_END -->
 <img src="https://img.shields.io/badge/Source-Manual%20Solved%20Files-2ea44f?style=flat-square" alt="Source" />
 </p>
@@ -20,12 +20,12 @@ Problems will be updated as I solve them daily.
 
 ## Progress Snapshot
 <!-- STATS_START -->
-- Total Solved: 0
-- Easy: 0
+- Total Solved: 2
+- Easy: 2
 - Medium: 0
 - Hard: 0
-- Top Tags: None
-- Last Updated (UTC): N/A
+- Top Tags: linked-list (1), recursion (1), math (1), dynamic-programming (1)
+- Last Updated (UTC): 2026-04-24 08:41
 <!-- STATS_END -->
 
 ## Problem Log
@@ -33,7 +33,8 @@ Problems will be updated as I solve them daily.
 | Date | Problem | Difficulty | Language | Link |
 | --- | --- | --- | --- | --- |
 <!-- PROBLEM_TABLE_START -->
-
+| 2026-04-24 | 206. Reverse Linked List | Easy | C++ | [LeetCode](https://leetcode.com/problems/reverse-linked-list/) |
+| 2026-04-24 | 509. Fibonacci Number | Easy | C++ | [LeetCode](https://leetcode.com/problems/fibonacci-number/) |
 <!-- PROBLEM_TABLE_END -->
 
 ## Repository Structure

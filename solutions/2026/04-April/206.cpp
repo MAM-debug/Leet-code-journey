@@ -1,6 +1,9 @@
-// LeetCode Problem 206: Reverse Linked List
-// Difficulty: Easy
-// URL: https://leetcode.com/problems/reverse-linked-list/
+@date: 2026-04-24
+@problem: 206. Reverse Linked List
+@leetcode: https://leetcode.com/problems/reverse-linked-list/
+@difficulty: Easy
+@tags: linked-list, recursion
+@language: C++
 
 class Solution {
 public:
