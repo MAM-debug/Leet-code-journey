@@ -1,3 +1,7 @@
+// LeetCode Problem 206: Reverse Linked List
+// Difficulty: Easy
+// URL: https://leetcode.com/problems/reverse-linked-list/
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
